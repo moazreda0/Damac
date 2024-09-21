@@ -1,0 +1,11 @@
+.text-custom-color{
+    color: #bf8c1c;
+}.text2-custom-color{
+    color: #1b385f;
+}
+.bg-custom-color{  
+      background-color: #bf8c1c;
+}
+.bg-custom-image{  
+    background-image: url('src/images/64523286-0-why-damac-bg.jpg');
+}

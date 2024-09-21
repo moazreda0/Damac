@@ -1,0 +1,600 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="//v.fastcdn.co/u/a43967b2/57711422-0-24955620-15135010620.jpg" type="image/ico">
+  <title> Damac</title>
+  <link href="./../dist/output.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.css" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+
+</head>
+
+<body>
+
+  <div class=" main mx-auto max-w-[400px]   ">
+    <!-- محتوى المشروع -->
+
+    <section>
+      <div class="relative w-full h-auto">
+        <!-- صورة للموبايل -->
+        <img src="/src/images/1723813705-64019573-ghost-Mobile-Banner.jpg"
+          class="bg-contain bg-center m-auto overflow-hidden md:hidden w-full h-auto" alt="main img mobile">
+
+        <!-- صورة للابتوب وما فوق -->
+        <img src="/src/images/64019568-0-Desktop-Banner.jpg" class="hidden md:block w-full h-auto max-h-[100vh] bg-cover bg-center"
+          alt="main img desktop">
+
+        <!-- Overlay -->
+        <div class="absolute inset-0 bg-black bg-opacity-50 "></div>
+
+        <div class="absolute inset-0 flex flex-col mx-5 text-white md:flex-row md:justify-between   ">
+          <div class="  mt-12 md:order-2 md:mx-auto ">
+            <img src="/src/images/63800434-0-damac-logo-white.svg" alt="Damac Logo" class=" w-72 md:w-[20vw]  	">
+          </div>
+
+          <div class="section1-Text  my-12 md:order-1 md:mx-auto   ">
+            <h1 class=" text-3xl md:text-4xl font-extrabold tracking-normal  ">INVEST IN LUXURY</h1>
+            <p class="text-lg md:text-xl lg:text-2xl font-semibold my-3">Properties in Dubai<br>from USD 408,000*</p>
+            <p class=" text-lg my-3">Flexible payment plans</p>
+          </div>
+        </div>
+
+
+
+        <div class="absolute p-4 flex items-center left-0 bottom-6 md:left-32 md:bottom-10">
+          <img src="./images/63809414-0-63801252-0-161-trend.gif" class="mx-2" alt="">
+          <h1 onclick="openModal();" class="text-white text-1xl md:text-2xl ">ENQUIRE NOW
+            <br class="md:hidden">
+            <hr class="my-1 border-t border-white w-full md:hidden">
+            DISCOVER MORE
+          </h1>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section2 my-10 max-w-[1200px]  mx-auto">
+      <div class="container my-5 mx-auto px-[2vw] ">
+        <div class="flex flex-col md:flex-row justify-between  text-left text-2xl font-bold text-custom-color mx-auto">
+          <div class="flex-1 text-3xl font-bold p-4">
+            Starting from <br> USD 408,000* <br>
+            <span href="javascript:void(0);" onclick="openModal();"  class="text-black font-normal text-sm">Ask for Prices →</span>
+
+          </div>
+          <div class="flex-1 text-3xl font-bold p-4">
+            Easy <br> Payment Plan
+          </div>
+          <div class="flex-1 text-3xl font-bold p-4">
+            Luxury Lifestyle <br> Communities
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-col md:flex-row ml-9">
+        <div class="w-full md:w-1/2 p-4 md:order-2 ">
+          <img src="/src/images/63388807-0-Dubai-Harbour---Amen.avif" class="w-full h-auto my-5" alt="Dubai Harbour">
+        </div>
+
+
+        <div class="w-full md:w-1/2 p-4 md:order-1  ">
+
+
+          <h1 class="my-5 text-3xl font-normal text-center  lg:text-4xl md:text-left">
+            YOUR DREAM<span class="text-custom-color"> DUBAI <br> LIFESTYLE </span> IS CALLING
+          </h1>
+
+
+          <p class="mb-4  md:text-xs lg:text-lg ">
+            Indulge in the epitome of luxury living with DAMAC Properties, where a world of investment opportunities
+            awaits. Whether you're drawn to the charm of lavish villas nestled within master communities, the allure of
+            waterfront apartments overlooking the iconic Dubai Marina, or the glamour of Hollywood-inspired hotel rooms
+            in proximity to the vibrant Burj Area, DAMAC Properties presents a diverse array of options tailored to your
+            discerning taste.
+          </p>
+          <p class="mb-4 md:text-xs lg:text-lg  ">
+            Unlock the potential for lucrative returns with our exclusive investment offerings, where selected projects
+            guarantee returns of up to 8%. What's more, with our flexible payment plans, including a 4% payment option,
+            investing in your dream property has never been more accessible.
+          </p>
+          <p class="text-[9px] ">
+            *Terms and conditions apply. Prices are subject to change based on availability of units.
+          </p>
+        </div>
+
+      </div>
+    </section>
+    <section class="section3 my-10 max-w-[900px]  mx-auto">
+
+      <div class="text-center text-2xl font-semiboldd  lg:text-[2.5vw] ">
+        CHOOSE YOUR <br class="md:hidden"><span class="text-custom-color">IDEAL HOME</span> FROM
+      </div>
+
+      <div class="container mx-auto my-10">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-2 mx-auto md:max-w-[80%] lg:max-w-[100%]">
+          <!-- First Image -->
+          <div class="property-box relative text-white text-center">
+            <img src="/src/images/STUDIO.avif" alt="Studio" class="w-full h-auto object-cover">
+            <div
+              class="property-text absolute bottom-1/2 left-1/2 transform -translate-x-1/2 px-4 py-2 font-bold text-2xl md:text-3xl whitespace-nowrap ">
+              STUDIO
+            </div>
+            <div
+              class="property-subtext absolute bottom-[40%] left-1/2 transform -translate-x-1/2  px-4 py-1 text-base md:text-lg whitespace-nowrap">
+              From USD 225,000*
+            </div>
+          </div>
+
+          <!-- Second Image -->
+          <div class="property-box relative text-white text-center">
+            <img src="/src/images/BEDROOM.avif" alt="1-3 Bedroom" class="w-full h-auto object-cover">
+            <div
+              class="property-text absolute bottom-1/2 left-1/2 transform -translate-x-1/2 px-4 py-2 font-bold text-2xl md:text-3xl whitespace-nowrap ">
+              1-3 BEDROOM
+            </div>
+            <div
+              class="property-subtext absolute bottom-[40%] left-1/2 transform -translate-x-1/2  px-4 py-1 text-base md:text-lg whitespace-nowrap">
+              From USD 362,000*
+            </div>
+          </div>
+
+          <!-- Third Image -->
+          <div class="property-box relative text-white text-center">
+            <img src="/src/images/townhouse.jpg" alt="Townhouse" class="w-full h-auto object-cover">
+            <div
+              class="property-text absolute bottom-1/2 left-1/2 transform -translate-x-1/2 px-4 py-2 font-bold text-2xl md:text-3xl whitespace-nowrap ">
+              TOWNHOUSE
+            </div>
+            <div
+              class="property-subtext absolute bottom-[40%] left-1/2 transform -translate-x-1/2  px-4 py-1 text-base md:text-lg whitespace-nowrap">
+              From USD 798,000*
+            </div>
+          </div>
+
+          <!-- Fourth Image -->
+          <div class="property-box relative text-white text-center">
+            <img src="/src/images/villa.jpg" alt="Villa" class="w-full h-auto object-cover">
+            <div
+              class="property-text absolute bottom-1/2 left-1/2 transform -translate-x-1/2 px-4 py-2 font-bold text-2xl md:text-3xl whitespace-nowrap ">
+              VILLA
+            </div>
+            <div
+              class="property-subtext absolute bottom-[40%] left-1/2 transform -translate-x-1/2  px-4 py-1 text-base md:text-lg whitespace-nowrap">
+              From USD 4.63 M*
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section4 py-10 max-w-[1200px]  mx-auto">
+      <div class="text-center text-4xl font-semibold">
+        <span class="text-custom-color font-semibold">FEATURED </span>
+        PROPERTIES
+      </div>
+      <div class="container mx-auto flex flex-wrap justify-center gap-6 my-8">
+        <div class="card w-72 bg-white shadow-lg">
+          <img src="/src/images/ALTITUDE DE GRISOGONO.avif" class="w-full h-auto object-cover" alt="...">
+          <div class="card-body px-4">
+            <h5 class="card-title font-semibold text-base">ALTITUDE DE GRISOGONO</h5>
+            <p class="card-text mt-2">BUSINESS BAY, DUBAI, UAE</p>
+          </div>
+          <a href="javascript:void(0);" onclick="openModal()" class="btn mt-4 w-full bg-custom-color text-white text-center py-1 rounded block">ENQUIRE NOW</a>
+
+        </div>
+
+        <div class="card w-72 bg-white shadow-lg">
+          <img src="/src/images/64520064-0-canal-crown.jpg" class="w-full h-auto object-cover" alt="...">
+          <div class="card-body px-4">
+            <h5 class="card-title font-semibold text-base">CANAL CROWN</h5>
+            <p class="card-text mt-2">SHEIKH ZAYED ROAD, DUBAI, UAE</p>
+          </div>
+
+          <a href="javascript:void(0);" onclick="openModal()"  class="btn mt-4 w-full bg-custom-color text-white text-center py-1 rounded block">ENQUIRE NOW</a>
+        </div>
+
+        <div class="card w-72 bg-white shadow-lg">
+          <img src="/src/images/64520066-0-damac-bay.jpg" class="w-full h-auto object-cover" alt="...">
+          <div class="card-body px-4">
+            <h5 class="card-title font-semibold text-base">DAMAC BAY 2 BY CAVALLI</h5>
+            <p class="card-text mt-2">DUBAI HARBOUR, DUBAI, UAE</p>
+          </div>
+
+          <a href="javascript:void(0);" onclick="openModal()" class="btn mt-4 w-full bg-custom-color text-white text-center py-1 rounded block">ENQUIRE NOW</a>
+        </div>
+
+        <div class="card w-72 bg-white shadow-lg">
+          <img src="/src/images/64520248-0-Verona.jpg" class="w-full h-auto object-cover" alt="...">
+          <div class="card-body px-4">
+            <h5 class="card-title font-semibold text-base">VERONA AT DAMAC HILLS 2</h5>
+            <p class="card-text mt-2">HESSA STREET, DUBAILAND, UAE</p>
+          </div>
+
+          <a href="javascript:void(0);" onclick="openModal()"  class="btn mt-4 w-full bg-custom-color text-white text-center py-1 rounded block">ENQUIRE NOW</a>
+        </div>
+
+        <div class="card w-72 bg-white shadow-lg">
+          <img src="/src/images/64520248-0-Verona.jpg" class="w-full h-auto object-cover" alt="...">
+          <div class="card-body px-4">
+            <h5 class="card-title font-semibold text-base">MOROCCO AT DAMAC LAGOONS</h5>
+            <p class="card-text mt-2">HESSA STREET, DUBAILAND, UAE</p>
+          </div>
+          <a href="javascript:void(0);" onclick="openModal()"  class="btn mt-4 w-full bg-custom-color text-white text-center py-1 rounded block">ENQUIRE NOW</a>
+
+        </div>
+
+        <div class="card w-72 bg-white shadow-lg">
+          <img src="/src/images/61542445-0-389780357-desktop.jpg" class="w-full h-auto object-cover" alt="...">
+          <div class="card-body px-4">
+            <h5 class="card-title font-semibold text-base">CAVALLI ESTATES AT DAMAC HILLS</h5>
+            <p class="card-text mt-2">HESSA STREET, DUBAILAND, UAE</p>
+          </div>
+
+          <a href="javascript:void(0);" onclick="openModal()"  class="btn mt-4 w-full bg-custom-color text-white text-center py-1 rounded block">ENQUIRE NOW</a>
+        </div>
+      </div>
+    </section>
+    <section class="section5 py-10 max-w-[1200px] mx-auto">
+      <div class="container mx-auto px-4 md:max-w-[80%] ">
+        <div class="flex flex-col md:flex-row items-center">
+          <!-- Left side: Image -->
+          <div class="md:w-1/2 mb-4 h-auto flex-shrink-0 flex-grow-0">
+            <div class="img-crown md:h-[75vh] lg:h-[90vh]">
+              <img src="/src/images/64523272-0-CANAL-CROWN-Banner.jpg" alt="Reasons to call Dubai your new home"
+                class="w-full h-full   object-cover object-center">
+            </div>
+          </div>
+          <!-- Right side: Text content -->
+          <div class="md:w-1/2 md:ml-10 text-left  text2-custom-color">
+            <h3 class="text-xl font-extralight my-3 ">WHY DUBAI</h3>
+            <h2 class="text-3xl font-normal mb-4 whitespace-nowrap">Reasons to call Dubai <br> your new home</h2>
+
+            <div class="container mx-auto flex flex-wrap items-center flex-shrink-0 flex-grow-0  ">
+              <div class="md:w-1/2 px-4  flex  md:flex-col items-start  ">
+                <div>
+
+                  <i class="fas  md:py-[10%]  fa-coins text-xl mr-3"></i>
+                </div>
+                <div class="h5-text text-left ">
+                  <h5 class="text-sm font-medium ">Stable Currency</h5>
+                  <p class="text-sm md:text-xs lg:text-base">The UAE Dirham has been pegged to the US Dollar since 1973
+                    and set at a constant
+                    rate
+                    since 1997 – making it one of the most stable currencies in the world.</p>
+                </div>
+              </div>
+
+              <div class="md:w-1/2 px-4  flex  md:flex-col items-start ">
+                <div>
+                  <i class="fas  md:py-[10%]  fa-hand-holding-usd text-2xl mr-3"></i>
+                </div>
+                <div class="h5-text text-left ">
+                  <h5 class="text-sm font-medium">Tax Incentives</h5>
+                  <p class="text-sm md:text-xs lg:text-base">The UAE offers several incentives including zero income
+                    tax, zero capital gains
+                    tax, and
+                    zero wealth tax, enabling maximum return for investors and business people.</p>
+                </div>
+              </div>
+
+              <div class="md:w-1/2 px-4  flex  md:flex-col items-start ">
+                <div>
+                  <i class="fas  md:py-[10%]  fa-heartbeat text-2xl mr-3"></i>
+                </div>
+                <div class="h5-text text-left ">
+                  <h5 class="text-sm font-medium">World Class Healthcare</h5>
+                  <p class="text-sm md:text-xs lg:text-base">With heavy investment in the healthcare sector, the city is
+                    the perfect choice for
+                    your
+                    health and wellbeing.</p>
+                </div>
+              </div>
+
+              <div class="md:w-1/2 px-4  flex  md:flex-col items-start ">
+                <div>
+                  <i class="fas  md:py-[10%]  fa-plane text-2xl mr-3"></i>
+                </div>
+                <div class="h5-text text-left ">
+                  <h5 class="text-sm font-medium">Easy Connectivity</h5>
+                  <p class="text-sm md:text-xs lg:text-base">Dubai is a direct flight away from 97 countries with the
+                    world's leading airlines
+                    flying
+                    from Dubai's airports.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section6 py-10 max-w-[1200px] mx-auto">
+      <div class="container mx-auto px-4 md:max-w-[80%]">
+        <div class="flex flex-col md:flex-row items-center">
+          <!-- Right side: Image -->
+          <div class="md:w-1/2 mb-4 h-auto flex-shrink-0 flex-grow-0 md:order-2">
+            <div class="img-crown md:h-[75vh] lg:h-[90vh]">
+              <img src="/src/images/64156681-0-thummmmb.jpg" alt="Dubai Advantages"
+                class="w-full h-full object-cover object-center">
+            </div>
+          </div>
+          <!-- Left side: Text content -->
+          <div class="md:w-1/2 md:mr-10 text-left text2-custom-color">
+            <div class="container mx-auto flex flex-wrap items-center flex-shrink-0 flex-grow-0">
+              
+              <!-- Communal Harmony -->
+              <div class="md:w-1/2 px-4 py-[5%] flex md:flex-col items-start">
+                <i class="fas fa-users text-2xl mr-3"></i>
+                <div class="h5-text text-left">
+                  <h5 class="text-sm font-medium">Communal Harmony</h5>
+                  <p class="text-sm md:text-xs lg:text-base">Home to over 200 different nationalities, Dubai is a cosmopolitan safe haven that stands for inclusion, diversity and security.</p>
+                </div>
+              </div>
+    
+              <!-- Safety for All -->
+              <div class="md:w-1/2 px-4 py-[5%] flex md:flex-col items-start">
+                <i class="fas fa-shield-alt text-2xl mr-3"></i>
+                <div class="h5-text text-left">
+                  <h5 class="text-sm font-medium">Safety for All</h5>
+                  <p class="text-sm md:text-xs lg:text-base">The UAE is one of the world's safest countries with a law enforcement system that showcases years of development and foresight, resulting in low crime rates.</p>
+                </div>
+              </div>
+    
+              <!-- Covid-19 Response -->
+              <div class="md:w-1/2 px-4 py-[5%] flex md:flex-col items-start">
+                <i class="fas  fa-house-chimney-medical text-2xl mr-3 " ></i>
+                <!-- <i class="fa-solid fa-virus-covid fa-beat-fade" <i class="fa-solid fa-"></i>></i> -->
+                <div class="h5-text text-left">
+                  <h5 class="text-sm font-medium">Covid-19 Response</h5>
+                  <p class="text-sm md:text-xs lg:text-base">The UAE is a global model for crisis preparedness, maintaining the highest levels of protection against the pandemic.</p>
+                </div>
+              </div>
+    
+              <!-- World-class Infrastructure -->
+              <div class="md:w-1/2 px-4 py-[5%] flex md:flex-col items-start">
+                <i class="fas fa-city text-2xl mr-3"></i>
+                <div class="h5-text text-left">
+                  <h5 class="text-sm font-medium">World-class Infrastructure</h5>
+                  <p class="text-sm md:text-xs lg:text-base">Dubai is home to an environment where communities thrive with excellent infrastructure, public transport, parks, and more.</p>
+                </div>
+              </div>
+    
+              <!-- Strategic Location -->
+              <div class="md:w-1/2 px-4 py-[5%] flex md:flex-col items-start">
+                <i class="fas fa-map-marker-alt text-2xl mr-3"></i>
+                <div class="h5-text text-left">
+                  <h5 class="text-sm font-medium">Strategic Location</h5>
+                  <p class="text-sm md:text-xs lg:text-base">Dubai is a direct flight away from 97 countries with the world's leading airlines flying from Dubai's airports.</p>
+                </div>
+              </div>
+    
+              <!-- Open and Free System -->
+              <div class="md:w-1/2 px-4 py-[5%] flex md:flex-col items-start">
+                <i class="fas fa-balance-scale text-2xl mr-3"></i>
+                <div class="h5-text text-left">
+                  <h5 class="text-sm font-medium">Open and Free System</h5>
+                  <p class="text-sm md:text-xs lg:text-base">Open economic policies, minimal government control, and private sector regulation facilitate Foreign Direct Investment (FDI), lending a competitive edge globally.</p>
+                </div>
+              </div>
+    
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+<section class=" section7 relative pt-10  mb-[100%] md:mb-[25%] lg:mb-[18%]">
+  <!-- Image background for all screens 
+-->
+  <img src="/src/images/64523286-0-why-damac-bg.jpg" alt="DAMAC Properties" class="w-full h-[256px] md:h-[512px] object-cover">
+  
+  <!-- Content Box (DAMAC Properties) 
+     <div class="relative flex items-center justify-center mt-[-20%] md:mt-[-10%]">
+-->
+  <div class="DAMAC-Properties absolute bottom-0    inset-x-0  flex items-center justify-center  ">
+    <div class=" bg-white rounded-xl shadow-xl mx-5 p-8 md:px-12 text-center max-w-2xl transform translate-y-[80%]  md:translate-y-[50%] ">
+      <h2 class="text-2xl font-semibold mb-4">Why choose DAMAC Properties?</h2>
+      <p class="text-sm md:text-base text-gray-700 mb-6">
+        DAMAC Properties has been at the forefront of the Middle East’s luxury real estate market since 2002, delivering luxury residential, commercial and leisure properties across the region, including the UAE, Saudi Arabia, Qatar, Jordan, Lebanon, Maldives, Canada and the United Kingdom.
+      </p>
+      
+      <!-- Stats -->
+      <div class="flex justify-between items-center text-blue-400">
+        <!-- Stat 1 -->
+        <div class="flex flex-col items-center">
+          <i class="fas fa-home text-3xl mb-2"></i>
+          <p class="font-semibold text-lg">47,000</p>
+          <p class="text-lg text-gray-500">Homes delivered</p>
+        </div>
+        
+        <!-- Stat 2 -->
+        <div class="flex flex-col items-center">
+          <i class="fas fa-hard-hat text-3xl mb-2"></i>
+          <p class="font-semibold text-lg">33,000</p>
+          <p class="text-lg text-gray-500">In planning and progress</p>
+        </div>
+        
+        <!-- Stat 3 -->
+        <div class="flex flex-col items-center">
+          <i class="fas fa-trophy text-3xl mb-2"></i>
+          <p class="font-semibold text-lg">100+</p>
+          <p class="text-lg text-gray-500">Awards received</p>
+        </div>
+      </div>
+      <p class="text-xs text-gray-400 mt-4">*As of 9th May, 2024</p>
+    </div>
+  </div>
+</section>
+    
+<section class=" section8  ">
+  <div class="max-w-3xl mx-auto p-5 text-center">
+    <!-- Title -->
+    <h2 class="text-xl md:text-3xl lg:text-4xl font-bold text-gray-800 mb-4">
+      Cryptocurrency payments are now accepted as mode of payment
+    </h2>
+      <!-- Icons container -->
+      <div class="flex justify-center space-x-8 text-6xl text-blue-400 m-10">
+        <!-- Bitcoin Icon -->
+        <i class="fab fa-bitcoin fa-bounce"></i>
+  
+        <!-- Dollar Icon -->
+        <i class="fas fa-dollar-sign fa-bounce"></i>
+  
+        <!-- Any third icon, let's say credit card -->
+        <i class="fa-brands fa-ethereum fa-bounce"></i>          </div>
+      
+
+    <!-- Subtitle -->
+    <p class="text-base md:text-lg  text-gray-600 mb-6">
+      READY FOR YOUR NEXT NEW HOME?
+    </p>
+
+    <!-- Description -->
+    <p class="text-lg md:text-base  text-gray-700 mb-8">
+      Get in touch now before all our units get sold out! Our property specialists are more than happy to assist you.
+    </p>
+
+    <!-- Form note -->
+    <p class="text-xs md:text-sm lg:text-base text-gray-500">
+      *All fields are compulsory
+    </p>
+  </div>
+
+</section>
+<section class="section9  pb-10 "  id="contact-form">
+  <div class="max-w-xl mx-auto p-5 text-center bg-white rounded-xl shadow-lg">
+
+    <!-- Form -->
+    <form class="space-y-4">
+      <!-- Title -->
+      <div >
+        <label for="title" class="block text-left text-sm font-medium text-gray-700">Title</label>
+        <select id="title" name="title" class="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+          <option>Mr</option>
+          <option>Ms</option>
+          <option>Mrs</option>
+          <option>Dr</option>
+        </select>
+      </div>
+
+      <!-- First Name -->
+      <div>
+        <label for="firstName" class="block text-left text-sm font-medium text-gray-700">First Name</label>
+        <input type="text" id="firstName" name="firstName" class="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500" required>
+      </div>
+
+      <!-- Last Name -->
+      <div>
+        <label for="lastName" class="block text-left text-sm font-medium text-gray-700">Last Name</label>
+        <input type="text" id="lastName" name="lastName" class="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500" required>
+      </div>
+
+      <!-- Email -->
+      <div>
+        <label for="email" class="block text-left text-sm font-medium text-gray-700">Email</label>
+        <input type="email" id="email" name="email" class="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500" required>
+      </div>
+
+      <!-- Phone Number -->
+      <div>
+        <label for="phone" class="block text-left text-sm font-medium text-gray-700">Phone Number</label>
+        <div class="flex">
+          <span class="inline-flex items-center px-3 rounded-l-md border border-r-0 border-gray-300 bg-gray-50 text-gray-500 text-sm">
+            +20
+          </span>
+          <input type="tel" id="phone" name="phone" class="mt-1 block w-full p-2 border border-gray-300 rounded-r-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500" required>
+        </div>
+      </div>
+
+      <!-- Enquire Now Button -->
+      <div>
+        <button type="submit" class="w-full max-w-[60%] bg-blue-500 text-white font-semibold py-2 px-4 rounded-md shadow hover:bg-blue-600 transition duration-300">
+          ENQUIRE NOW
+        </button>
+      </div>
+    </form>
+  </div>
+</section>
+
+
+
+  </div>
+  <footer class="bg-gray-800 text-gray-300 py-8">
+    <div class="max-w-6xl mx-auto px-4">
+      <!-- Sales Office Info -->
+      <div class="text-center mb-6">
+        <p class="text-sm md:text-base">
+          Sales Office: Dubai International Financial Center, Park Towers Building, 1st floor. Tel: 
+          <a href="tel:+97145205400" class="text-blue-400 hover:text-blue-500">+971 4 520 5400</a>
+        </p>
+      </div>
+  
+      <!-- Security & Policies -->
+      <div class="text-center mb-4">
+        <p class="text-xs md:text-sm">
+          This site's security is ensured by reCAPTCHA. Furthermore, the 
+          the DAMAC Privacy Policy, Terms of Service, and Cookie Policy 
+        </p>
+      </div>
+  
+      <!-- Copyright -->
+      <div class="text-center">
+        <p class="text-xs md:text-sm">
+          © DAMAC Copyright 2023 All rights reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+  <div id="formModal" class="  fixed inset-0 bg-gray-800 bg-opacity-50  items-center justify-center hidden">
+    <div class="bg-white p-6 rounded-lg shadow-lg w-full max-w-md">
+<button onclick="closeModal()" class=" top-2 right-2 text-gray-600 hover:text-gray-900 text-xl font-bold">
+  <i class="fas fa-times"></i>
+</button>
+
+      <h2 class="text-2xl font-semibold mb-4 text-center">REGISTER YOUR INTEREST
+      </h2>
+      <form>
+        <label for="first-name" class="block mb-2">First Name</label>
+        <input type="text" id="first-name" class="border p-2 w-full mb-4">
+  
+        <label for="last-name" class="block mb-2">Last Name</label>
+        <input type="text" id="last-name" class="border p-2 w-full mb-4">
+  
+        <label for="email" class="block mb-2">Email</label>
+        <input type="email" id="email" class="border p-2 w-full mb-4">
+  
+        <label for="phone" class="block mb-2">Phone Number</label>
+        <input type="tel" id="phone" class="border p-2 w-full mb-4">
+  
+        <button type="submit" class="bg-blue-500 text-white p-3 w-full">ENQUIRE NOW</button>
+      </form>
+    </div>
+  </div>
+  
+
+  <script>
+    const element = document.querySelector('.main');
+    function updateMaxWidth() {
+      if (window.innerWidth > 768) {
+        element.classList.remove('max-w-[400px]');
+      } else {
+        element.classList.add('max-w-[400px]');
+      }
+    }
+
+    updateMaxWidth();
+
+    window.addEventListener('resize', updateMaxWidth);
+    function openModal() {
+    document.getElementById('formModal').style.display = 'flex';
+  }
+
+  function closeModal() {
+    document.getElementById('formModal').style.display = 'none';
+  }
+  </script>
+</body>
+
+</html>
